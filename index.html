@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <script type="module">
     import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
@@ -56,28 +57,19 @@
     div2.append(plot2);
   </script>
   <body>
-    <header>
-      <h1>Les meilleurs graphiques sur la compétition du tennis</h1>
-    </header>
+    <header>Les meilleurs graphiques sur la compétition du tennis</header>
 
     <nav>
-      <a href="#bigthree">Domination du Big Three au grand chelem</a>
+      <a href="#bigthree">Domination du Big Three</a>
       <a href="#nationnalite">Nationnalités des vainqueurs</a>
     </nav>
 
     <section id="bigthree">
-      <h2>
-        Domination du Big Three de 2002 à 2022 sur les tournois de grand Chelem
-      </h2>
-      <p>
-        Le nombre de victoires par tournois du grand chelem entre
-        2002 à 2022
-      </p>
+      <h2>Domination du Big Three de 2002 à 2022</h2>
       <figure>
         <div id="graph1"></div>
         <figcaption>
-          Le graphique du nombre de victoires par tournois du grand chelem entre
-          2002 à 2022
+          Le nombre de victoires par tournois du grand chelem (2002 à 2022)
         </figcaption>
       </figure>
       <p>
@@ -102,15 +94,11 @@
     </section>
 
     <section id="nationnalite">
-      <h2>Les nationnalités les plus representées au grand chelem</h2>
-      <p>
-        Graphique représentant les différentes nationnalités des vainqueurs au
-        tennis
-      </p>
+      <h2>Les nationalités des vainqueurs du Grand Chelem</h2>
       <figure>
         <div id="graph2"></div>
         <figcaption>
-          Graphique des nationnalités les plus representées au grand chelem
+          Graphique des nationalités les plus représentées au Grand Chelem
         </figcaption>
       </figure>
       <p>
@@ -139,5 +127,7 @@
         nouveaux talents de diverses régions du monde.
       </p>
     </section>
+
+    <footer>© 2024 - Kentin Martel</footer>
   </body>
 </html>
